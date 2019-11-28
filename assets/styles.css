@@ -1,0 +1,99 @@
+body {
+	font-size: 20px;
+}
+
+.main-wrapper {
+	width: 800px;
+	min-height: 560px;
+	margin: 0 auto;
+	padding: 20px 30px;
+	border: 2px solid gray;
+}
+
+.header {
+	margin: 0 250px;
+	font-size: 40px;
+}
+
+.notification {
+	font-size: 20px;
+	color: red;
+	margin-left: 240px;
+	display: none;
+}
+
+.input {
+	height: 26px;
+	width: 720px;
+	margin-top: 5px;
+	margin-left: 20px;
+	border: 1px solid black;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+	font-size: 16px;
+	padding-left: 2px;
+}
+
+.input-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 0;
+}
+
+.icon-wrapper {
+	height: 36px;
+	width: 36px;
+	margin-left: 20px;
+}
+
+.hr-line {
+	border: 1px solid black;
+}
+
+.list-wrapper {
+	min-height: 360px;
+	padding-left: 20px;
+}
+
+.image-wrapper {
+	height: 70px;
+	width: 70px;
+	margin-left: 350px;
+
+}
+
+.image-wrapper img {
+	height: 100%;
+	width: 100%;
+}
+
+.listElem {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.listElem p {
+	margin-left: 50px;
+}
+
+.listElem .check {
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+
+.listElem .del {
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+.material-icons {
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.material-icons:hover {
+	cursor: pointer;
+}
